@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.myBox {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(120deg, #ccc, #9e7b61);
+  padding: 10px;
+  justify-content: center;
+  margin: auto;
+}
+.myBox .myApp {
+  width: 50%;
+  height: auto;
+  background: #fff;
+  border-radius: 30px;
+  padding: 30px 40px;
+  margin: 150px auto;
+}
+.myBox h1 {
+  margin-bottom: 30px;
+  padding-left: 30px;
+}
+.myBox hr {
+  margin-left: 30px;
+}
+.myBox .list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  padding: 0 20px;
+  margin-top: 30px;
+}
+.myBox .list button {
+  width: 60px;
+  height: 60px;
+  padding-left: -15px;
+  border-radius: 50%;
+  margin: 0;
+  border: none;
+}
+.myBox .list button img {
+  width: 80px;
+  margin: -32px;
+}
+.myBox .list #inputTask {
+  font-size: 1.9em;
+  padding: 15px 0 10px 20px;
+  margin: 0 -62px 0 20px;
+  width: 100%;
+  border: none;
+  background: transparent;
+  border-radius: 50px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.19);
+}
+.myBox .list span {
+  margin-top: 50px;
+}
+.myBox .listeTaches {
+  margin: 80px 0 0 30px;
+  border: solid 1px #fcbc40;
+  border-radius: 10px;
+  padding: 20px 20px;
+}
+.myBox .listeTaches span {
+  font-size: 1.9em;
+  text-align: center;
+  padding: 30px 30px;
+}
+.myBox .listeTaches hr {
+  margin-top: 10px;
+}
+.myBox ul li {
+  list-style: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  margin-top: 40px;
+  font-size: 1.1em;
+  padding-left: 50px;
+  position: absolute;
+  cursor: pointer;
+  position: relative;
+  font-weight: normal;
+}
+.myBox ul .checked {
+  color: #444444;
+}/*# sourceMappingURL=style.css.map */

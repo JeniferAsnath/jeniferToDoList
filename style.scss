@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.myBox{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(120deg,#ccc, #9e7b61);
+    padding: 10px;
+    justify-content: center;
+    margin: auto;
+
+    & .myApp{
+        width: 50%;
+        height: auto;
+        background: #fff;
+        border-radius: 30px;
+        padding: 30px 40px;
+        margin: 150px auto;
+    }
+    & h1{
+        margin-bottom: 30px;
+        padding-left: 30px;
+    }
+    & hr{
+        margin-left: 30px;
+        
+    }
+   
+    & .list{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        border-radius: 30px;
+        padding: 0 20px;
+        margin-top: 30px;
+
+        & button {
+            width: 60px;
+            height: 60px;
+            padding-left: -15px;
+            border-radius: 50%;
+            margin: 0;
+            border: none;
+
+           & img{
+            width: 80px;
+            margin: -32px;
+           } 
+        }
+        & #inputTask{
+            font-size: 1.9em;
+            padding: 15px 0 10px 20px;
+            margin: 0 -62px 0 20px;
+            width: 100%;
+            border: none;
+            background: transparent;
+            border-radius: 50px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.19);
+            
+        }
+        & span {
+            margin-top: 50px;
+        }
+    }
+    & .listeTaches{
+        margin: 80px 0 0 30px;
+        border: solid 1px #fcbc40;
+        border-radius: 10px;
+        padding: 20px 20px;
+        
+        & span {
+            font-size: 1.9em;
+            text-align: center;
+            padding: 30px 30px ; 
+        }
+
+        & hr {
+            margin-top: 10px;
+        }
+    }
+    & .listTask {
+        & span {
+            font-size: 1.5em;
+        }
+        & li{
+            list-style:circle;
+            user-select: none;
+            margin-top: 40px;
+            font-size: 1.6em;
+            padding-left: 50px;
+            position: absolute;
+            cursor: pointer;
+            position: relative;
+            font-weight: normal;
+            
+        }
+    }
+   
+    
+    // & ul li::before{
+    //     content: ' ';
+    //     width: 25px;
+    //     height: 25px;
+    //     background-image: url(cercle.png);
+    //     background-size: cover;
+    //     background-position: center;
+    //     position: absolute;
+    //     top: 6px;
+    //     left: 40px;
+
+    //     } 
+    & ul .checked{
+        color: #444444;
+    }   
+    & ul .checked::after{
+        background-image: url(coche.png);
+        text-decoration: line-through;
+    }
+    // & ul li img{
+    //     position: absolute;
+    //     right: 0;
+    //     width: 30px;
+    //     border-radius: 50px;
+    // }
+    // // & ul li img:hover{
+    // //     background: #ccc;  
+    // // }
+
+}
